@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+results/*
+!results/.gitkeep
+
+wandb/
+swanlog/
+reference_dataset/
+data/
+
+.venv/
+venv/
+env/

@@ -2,8 +2,6 @@
 
 scDGRN is a deep-learning framework for inferring **single-cell dynamic gene regulatory networks (GRNs)** from single-cell RNA sequencing (scRNA-seq) data. Given an expression matrix, transcription factor (TF) annotations and a background regulatory network, scDGRN estimates cell-context-specific TF-target regulatory strengths and supports downstream analyses of regulatory specificity, GRN significance, TF perturbation and pathway-level regulatory activity.
 
-This repository is a cleaned and GitHub-ready implementation of the original `scDGRN_预训练好` workspace. The code keeps the paper workflow intact while exposing reproducible command-line entry points for cell-token pretraining, gene-token pretraining and dynamic GRN inference.
-
 ![scDGRN workflow](over_flows.png)
 
 ## Method Overview
